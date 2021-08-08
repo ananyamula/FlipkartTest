@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.flipkart.qa.test.FlipKartTest">
+        <methods>
+          <include name="setProcessor"/>
+          <include name="beforeClass"/>
+          <include name="openHomePage"/>
+          <include name="writeInCSVFile"/>
+          <include name="afterClass"/>
+          <include name="setCriteria"/>
+          <include name="setRAM"/>
+          <include name="getTotalNoOfMobiles"/>
+        </methods>
+      </class> <!-- com.flipkart.qa.test.FlipKartTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
